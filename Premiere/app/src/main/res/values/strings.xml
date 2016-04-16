@@ -1,0 +1,40 @@
+<resources>
+    <!--
+        TELA DE LOGIN
+    -->
+    <!-- Botoes e links -->
+    <string name="app_name">Premiere</string>
+    <string name="strBtnLogin">Login</string>
+    <string name="strNewAccount">Registre-se</string>
+    <string name="strLostPasswd">Esqueci minha senha</string>
+
+    <!-- Hint Campos Input -->
+
+    <string name="strHintSenha">Senha</string>
+
+    <!--
+        TELA DE Registrar Usuario
+    -->
+    <!-- Botoes e links -->
+    <string name="strBtnCriarConta">Registrar</string>
+    <string name="strContaExistente">Já possuo uma conta</string>
+
+    <!-- Hint Campos Input -->
+    <string name="strHintNome">Nome Completo</string>
+    <string name="strHintCidade">Cidade</string>
+    <string name="strHintEmail">Email</string>
+    <string name="strHintSenhaAgain">Confirme sua Senha</string>
+
+    <!-- TELA HOME -->
+    <!-- Descricao das Imagens -->
+    <string name="strDescImgUser">Imagem de usuário</string>
+    <string name="strDescPoster1">Imagem do poster do filme.</string>
+    <string name="strDescPoster2">Imagem do poster do filme.</string>
+    <string name="strDescPoster3">Imagem do poster do filme.</string>
+    <string name="strDescPoster4">Imagem do poster do filme.</string>
+    <string name="strDescLogo">Imagem da logo do aplicativo.</string>
+    <string name="srtUserName">Jane Doe</string>
+    <string name="srtUserCidade">Curitiba - PR</string>
+
+
+</resources>

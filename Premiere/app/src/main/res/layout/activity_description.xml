@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.wilterson.premiere.Activity_Description"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/poster1"
+                android:id="@+id/poster"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titulo"
+                android:text="Convergente"
+                android:textSize="26sp"
+                android:paddingLeft="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/data"
+                android:text="05/04/1995"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut accumsan neque, quis eleifend metus. Integer elementum mi id ultrices gravida. In dictum lorem at lacus rutrum, et egestas ante efficitur. Aliquam sit amet nisl sit amet tellus faucibus porta lacinia dignissim diam. Nunc tempus vestibulum ex, in tristique tellus porta a. Pellentesque quis metus congue est finibus congue."
+                android:paddingLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:paddingRight="15dp"
+                android:textAlignment="textStart"
+                android:layout_marginBottom="25dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Comprar Ingressos"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorWhite"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

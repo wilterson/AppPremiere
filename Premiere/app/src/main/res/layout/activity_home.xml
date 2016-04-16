@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.wilterson.premiere.activity_home"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user"
+            android:contentDescription="@string/strDescImgUser"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/srtUserName"
+                android:textSize="18sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginStart="15dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/srtUserCidade"
+                android:textColor="@color/colorWhite"
+                android:layout_marginStart="15dp"/>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:id="@+id/filme1"
+                    android:src="@drawable/poster1"
+                    android:contentDescription="@string/strDescPoster1"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:id="@+id/filme2"
+                    android:layout_weight="1"
+                    android:src="@drawable/poster2"
+                    android:contentDescription="@string/strDescPoster2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:id="@+id/filme3"
+                    android:layout_weight="1"
+                    android:src="@drawable/poster3"
+                    android:contentDescription="@string/strDescPoster3"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:id="@+id/filme4"
+                    android:src="@drawable/poster4"
+                    android:contentDescription="@string/strDescPoster4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:id="@+id/filme5"
+                    android:src="@drawable/poster5"
+                    android:contentDescription="@string/strDescPoster3"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:id="@+id/filme6"
+                    android:src="@drawable/poster6"
+                    android:contentDescription="@string/strDescPoster4"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="40dp">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:id="@+id/filme7"
+                    android:src="@drawable/poster7"
+                    android:contentDescription="@string/strDescPoster3"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"
+                    android:id="@+id/filme8"
+                    android:src="@drawable/poster8"
+                    android:contentDescription="@string/strDescPoster4"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
